@@ -4,7 +4,7 @@ import * as bodyParser from "body-parser";
 import * as expressSession from "express-session";
 import Product from "./types";
 
-const products: Product[] = require("../products.json");
+const products: Product[] = require("../frontend/assets/products.json");
 
 const app = express();
 app.use(bodyParser.json());
