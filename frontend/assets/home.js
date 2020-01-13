@@ -1,9 +1,9 @@
-productloader();
+const tbody = document.querySelector("table tbody");
 
-var json = require('/assets/products.json');
 
-function productloader() {
-    if (json == null) {
-        document.write("Kein JSON File gefunden");
-    }
-}
+fetch("/api/products")
+    .then(r => r.json())
+    .then(products => products.forEach(products => {
+        console.log(products);
+
+    }));
