@@ -1,8 +1,8 @@
 [{
         "id": "001",
-        "productName": "F/A in Emmen ",
-        "specialOffer": 3.6,
-        "normalPrice": 5.2,
+        "productName": "Boeing F/A 18 in Emmen",
+        "specialOffer": 3.60,
+        "normalPrice": 5.20,
         "imageName": "fa18emmen.JPG",
         "description": "Eine besondere Aufnahme von einem F/A 18 der Schweizer Luftwaffe. So nahe an den Flieger kommen Sie sonst nirgendswo."
     },
@@ -10,7 +10,7 @@
         "id": "002",
         "productName": "Boeing 747 Thai Airways in Zürich",
         "specialOffer": 2.65,
-        "normalPrice": 3.1,
+        "normalPrice": 3.10,
         "imageName": "thai747zurich.jpg",
         "description": "Die Boeing 747-400 von Thai Airways geht bald in den Ruhestand! Das ist Ihre Gelgenheit. Schlagen Sie zu!"
     },
@@ -18,14 +18,14 @@
         "id": "003",
         "productName": "Airbus A380 von Emirates in Zürich",
         "specialOffer": 8.25,
-        "normalPrice": 16.5,
+        "normalPrice": 16.50,
         "imageName": "emirates380zurich.jpg",
         "description": "Die A380 ist schon mäjestetisch. Gönnen Sie sich dieses Bild bevor es jemand anderes tut. "
     },
     {
         "id": "004",
         "productName": "Airbus A320 von Iberia in Zürich",
-        "specialOffer": 2.7,
+        "specialOffer": 2.70,
         "normalPrice": 3.45,
         "imageName": "iberia320zurich.jpg",
         "description": "Kaufen Sie sich dieses Bild vom A320 von der Spanischen Airline Iberia. Ein nicht alltäglicher Winkel von einem landendem Flugzeug."
@@ -33,46 +33,46 @@
     {
         "id": "005",
         "productName": "Airbus A320 von Eurowings in Zürich",
-        "specialOffer": 4.5,
-        "normalPrice": 5.4,
+        "specialOffer": 4.50,
+        "normalPrice": 5.40,
         "imageName": "eurowings320zurich.jpg",
         "description": "Eine Airbus A320 von der deutschen Airline Eurowings mit Sonderlackierung."
     },
     {
         "id": "006",
         "productName": "Emirates A380 mit EXPO Sonderlackierung in Zürich",
-        "specialOffer": 2,
-        "normalPrice": 2.3,
+        "specialOffer": 2.00,
+        "normalPrice": 2.30,
         "imageName": "emirates380zurichsonderbemalung.jpg",
         "description": "Eine A380 mit einer EXPO Sonderlackierung von Emirates im Endanflug auf die Piste 14."
     },
     {
         "id": "007",
         "productName": "Boeing 757 von Icelandair in Zürich",
-        "specialOffer": 7.9,
-        "normalPrice": 9.9,
+        "specialOffer": 7.90,
+        "normalPrice": 9.90,
         "imageName": "icelandair757zurich.jpg",
         "description": "Eine Boeing 757 von Icelandair mit Sonderbemalung in Zürich im Endaflug auf Piste 14. Sieht ein bisschen aus wie Pepsi oder? :)"
     },
     {
         "id": "008",
         "productName": "Tiger F5 der Patrouillie Suisse",
-        "specialOffer": 7.5,
-        "normalPrice": 10.8,
+        "specialOffer": 7.50,
+        "normalPrice": 10.80,
         "imageName": "tigerf5emmen.jpg",
         "description": "Wie lässig der Pilot sein Arm aus dem Cockpit hält. Dieses Bild ist kein alltägliches Bild, also schlagen Sie zu."
     },
     {
         "id": "009",
-        "productName": "Swiss A320 in Zürich",
-        "specialOffer": 2.7,
-        "normalPrice": 3.4,
+        "productName": "Airbus A320 von Swiss in Zürich",
+        "specialOffer": 2.70,
+        "normalPrice": 3.40,
         "imageName": "swiss320zurich.jpg",
         "description": "Wi lustig sieht dass denn bitteschön aus? Ein bisschen wie Rudolf das Rentier. Gegen die Weihnachtszeit war dieses Flieger mit einer roten Nase ausegrüstet. Cool oder?"
     },
     {
         "id": "010",
-        "productName": "Freebird A320 in Zürich",
+        "productName": "Airbus A320 von Freebird in Zürich",
         "specialOffer": 14.35,
         "normalPrice": 17.95,
         "imageName": "freebird320zurich.jpg",
