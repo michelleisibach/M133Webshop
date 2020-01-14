@@ -6,8 +6,11 @@ fetch("/api/products")
     .then(products => products.forEach(products => {
         console.log(products);
         tbody.innerHTML +=
-            `<div height: 200px;>                 
-                <img src="/assets/images/${products.imageName}"}>    
+            `
+            <div height: 200px;>  
+            <a href="/product/:${products.id}">               
+               <button type="button" class="btn btn-light" )> 
+               <img src="/assets/images/${products.imageName}"}>    
                 <hr />
                 <div style="margin-bottom: 25px;">
                 <h3 class="producttitle"> ${products.productName} </h3>    
@@ -15,5 +18,7 @@ fetch("/api/products")
                 <hr />
                 <div style="font-size: 15px; color:red; text-decoration: line-through" >${products.normalPrice} CHF  </div>
                 <div style="font-size: 15px; color:green;">${products.specialOffer} CHF </div>
+                </button>
+                </a>
             </div>`;
     }));

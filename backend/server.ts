@@ -23,6 +23,10 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname + '/../frontend/html/index.html'));
 });
 
+app.get("/product/:id", (req, res) => {
+    res.sendFile(path.join(__dirname + '/../frontend/html/product.html'));
+});
+
 
 //api
 app.get("/api/products", (req, res) => {

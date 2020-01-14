@@ -39,3 +39,7 @@ img {
 .price {
     color: red;
 }
+
+#product {
+    margin-left: 5%;
+}
