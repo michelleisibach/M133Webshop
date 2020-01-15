@@ -3,13 +3,13 @@
 ## Installation
 
 ## Anforderungen
-**```diff + Versionierung: ```**
+-[ ]**Versionierung:**
 Ein Git-Repository wurde mit der Lehrperson geteilt
 (E-Mail), eine Commit-History mit den
 Zwischenständen ist ersichtlich, Commit-Messages sind aussagekräftig,
 keine Node-Module oder kompilierte bzw. transpilierte Dateien sind auf git 
 
-**Ausführbarkeit:**
+-[ ]**Ausführbarkeit:**
 Es ist eine Anleitung vorhanden, wie mit installiertem und aktuellen NodeJs
 Ihre Applikation in Betrieb genommen werden kann (was installiert werden
 muss und wie die App gestartet und aufgerufen wird).
