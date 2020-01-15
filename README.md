@@ -97,4 +97,3 @@ wird in 1600x900 und 414x736
 In der letzten Doppellektion des Semesters werden Fragen zu Ihrem
 abgegebenen Code gestellt. Sie müssen also jeden Teil aus Ihrer Codebasis
 kennen und verstehen. 
-
