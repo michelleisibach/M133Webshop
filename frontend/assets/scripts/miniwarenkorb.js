@@ -29,7 +29,7 @@ function getItem() {
             myList = Object.keys(r).map(function(key) {
                 return { label: key, value: r[key] }
             });
-            let grup = groupBy(r, r => r.id);
+            let grup = groupBy(myList, myList => r.id);
             console.log(grup);
         });
 }
