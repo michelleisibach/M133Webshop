@@ -3,7 +3,7 @@
 ## Installation
 
 ## Anforderungen
-**Versionierung:**
+**```diff + Versionierung: ```**
 Ein Git-Repository wurde mit der Lehrperson geteilt
 (E-Mail), eine Commit-History mit den
 Zwischenständen ist ersichtlich, Commit-Messages sind aussagekräftig,
