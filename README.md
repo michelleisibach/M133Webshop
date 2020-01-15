@@ -3,13 +3,13 @@
 ## Installation
 
 ## Anforderungen
-[x]**Versionierung:**
+**Versionierung:**
 Ein Git-Repository wurde mit der Lehrperson geteilt
 (E-Mail), eine Commit-History mit den
 Zwischenständen ist ersichtlich, Commit-Messages sind aussagekräftig,
 keine Node-Module oder kompilierte bzw. transpilierte Dateien sind auf git 
 
-[x]**Ausführbarkeit:**
+**Ausführbarkeit:**
 Es ist eine Anleitung vorhanden, wie mit installiertem und aktuellen NodeJs
 Ihre Applikation in Betrieb genommen werden kann (was installiert werden
 muss und wie die App gestartet und aufgerufen wird).
@@ -97,3 +97,6 @@ wird in 1600x900 und 414x736
 In der letzten Doppellektion des Semesters werden Fragen zu Ihrem
 abgegebenen Code gestellt. Sie müssen also jeden Teil aus Ihrer Codebasis
 kennen und verstehen. 
+
+- [x]
+- [ ]
