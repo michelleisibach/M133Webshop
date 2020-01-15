@@ -19,20 +19,18 @@ function displayProduct() {
                     <h1 class="card-title">${products.productName}</h1>
                          <div class="card-body">
                          <img src="/assets/images/${products.imageName}" style="width: 100%">
+                         <hr />
                          <ul class="list-group list-group-flush">
                          <li class="list-group-item"><h3>${products.description}</h3></li>
+                         <hr />
                          <p style="font-size: 15px; color:red; text-decoration: line-through" >${products.normalPrice} CHF</p>
                          <p style="font-size: 15px; color:green;">${products.specialOffer} CHF</p>
                        </ul>
-                       <br>
-                       <button class="btn btn-success" type="button">add to Shopping Cart!</button>
+                       <hr />
+                       <button class="btn btn-success" type="button">In den Warenkorb legen</button>
                         </div>
                     </div>
                     `
-
             }
-
-
-
         }));
 }

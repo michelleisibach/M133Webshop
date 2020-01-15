@@ -4,7 +4,6 @@ const tbody = document.getElementById("products");
 fetch("/api/products")
     .then(r => r.json())
     .then(products => products.forEach(products => {
-        console.log(products);
         tbody.innerHTML +=
             `
             <div height: 200px;>  

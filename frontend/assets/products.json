@@ -9,16 +9,16 @@
     {
         "id": "002",
         "productName": "Boeing 747 Thai Airways in Zürich",
-        "specialOffer": 2.65,
-        "normalPrice": 3.10,
+        "specialOffer": 8.65,
+        "normalPrice": 10.80,
         "imageName": "thai747zurich.jpg",
         "description": "Die Boeing 747-400 von Thai Airways geht bald in den Ruhestand! Das ist Ihre Gelgenheit. Schlagen Sie zu!"
     },
     {
         "id": "003",
         "productName": "Airbus A380 von Emirates in Zürich",
-        "specialOffer": 8.25,
-        "normalPrice": 16.50,
+        "specialOffer": 2.25,
+        "normalPrice": 4.50,
         "imageName": "emirates380zurich.jpg",
         "description": "Die A380 ist schon mäjestetisch. Gönnen Sie sich dieses Bild bevor es jemand anderes tut. "
     },
@@ -41,8 +41,8 @@
     {
         "id": "006",
         "productName": "Emirates A380 mit EXPO Sonderlackierung in Zürich",
-        "specialOffer": 2.00,
-        "normalPrice": 2.30,
+        "specialOffer": 3.10,
+        "normalPrice": 6.30,
         "imageName": "emirates380zurichsonderbemalung.jpg",
         "description": "Eine A380 mit einer EXPO Sonderlackierung von Emirates im Endanflug auf die Piste 14."
     },
@@ -73,8 +73,8 @@
     {
         "id": "010",
         "productName": "Airbus A320 von Freebird in Zürich",
-        "specialOffer": 14.35,
-        "normalPrice": 17.95,
+        "specialOffer": 5.35,
+        "normalPrice": 10.95,
         "imageName": "freebird320zurich.jpg",
         "description": "In der Ferienzeit sind sehr viele Charterflüge am Flughafen zu sehen. So auch dieser Freebird Airbus A320."
     }
