@@ -27,10 +27,19 @@ function displayProduct() {
                          <p style="font-size: 15px; color:green;">${products.specialOffer} CHF</p>
                        </ul>
                        <hr />
-                       <button class="btn btn-success" type="button">In den Warenkorb legen</button>
+                       <button class="btn btn-success" type="button" onclick="add()">In den Warenkorb legen</button>
                         </div>
                     </div>
                     `
             }
         }));
+}
+
+function add() {
+    const url = window.location.href;
+    var length = url.length;
+    var toCut = length - 3;
+    var res = url.slice(toCut);
+    console.log(res);
+    fetch(`/api/warenkorb/${res}`, { method: "POST" });
 }

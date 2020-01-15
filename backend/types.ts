@@ -22,3 +22,21 @@ export default class Product{
     this.description = description;
   }
 }
+
+export class ShoppingCart{
+  allProducts: Product[];
+
+  constructor() {
+    this.allProducts = new Array<Product>();
+  }
+
+  getTotalPrice(): number {
+    let price = 0;
+
+    this.allProducts.forEach(product => {
+      price += product.specialOffer || product.normalPrice;
+    });
+
+    return price;
+  }
+}
