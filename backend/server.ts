@@ -29,8 +29,8 @@ app.get("/product/:id", (req, res) => {
 });
 
 app.get("/shoppingcart", (req, res) => {
-    res.sendFile(path.join(__dirname += "/../frontend/html/shoppingcart.html"));
-})
+    res.sendFile(path.join(__dirname + '/../frontend/html/shoppincart.html'));
+});
 
 
 //api
