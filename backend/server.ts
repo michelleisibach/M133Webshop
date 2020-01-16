@@ -28,6 +28,10 @@ app.get("/product/:id", (req, res) => {
     res.sendFile(path.join(__dirname + '/../frontend/html/product.html'));
 });
 
+app.get("/shoppingcart", (req, res) => {
+    res.sendFile(path.join(__dirname += "/../frontend/html/shoppingcart.html"));
+})
+
 
 //api
 app.get("/api/products", (req, res) => {
