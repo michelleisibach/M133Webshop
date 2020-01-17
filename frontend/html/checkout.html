@@ -28,15 +28,9 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Galerie <span class="sr-only">(current)</span></a>
-                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <a href="/shoppingcart">"<img src="/assets/images/warenkorb.png"> </a>
+                <a href="/shoppingcart"><img src="/assets/images/warenkorb.png"> </a>
             </form>
         </div>
     </nav>
@@ -94,9 +88,9 @@
             });
 
             if (empty) {
-                $('#register').attr('disabled', 'disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+                $('#register').attr('disabled', 'disabled');
             } else {
-                $('#register').removeAttr('disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+                $('#register').removeAttr('disabled');
             }
         });
     })()
