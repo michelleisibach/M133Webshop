@@ -1,3 +1,0 @@
-function showminishoppingcart() {
-    alert("test");
-}

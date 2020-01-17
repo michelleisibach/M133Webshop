@@ -2,7 +2,6 @@ const cart = document.getElementById('cart');
 const price = document.getElementById('price');
 var sum = 0;
 
-
 getItem();
 
 function getItem() {
@@ -13,11 +12,8 @@ function getItem() {
             for (let i = 0; i < r.allProducts.length; i++) {
                 productId.push(r.allProducts[i].id)
                 sum = sum + r.allProducts[i].specialOffer
-
-
             }
             displayCheckout();
-
         });
 }
 

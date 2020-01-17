@@ -1,4 +1,3 @@
-const cart = document.getElementById('cart');
 const price = document.getElementById('price');
 var sum = 0;
 
@@ -13,8 +12,7 @@ function getItem() {
             for (let i = 0; i < r.allProducts.length; i++) {
                 productId.push(r.allProducts[i].id)
                 sum = sum + r.allProducts[i].specialOffer
-                if (!productId.includes(i)) {
-                    cart.innerHTML += `             
+                cart.innerHTML += `             
                 <tr>
                 <td> 1x </td>                
                 <td>${r.allProducts[Number(i)].productName}</td>
@@ -22,12 +20,8 @@ function getItem() {
                 <td><p style="color: green">${r.allProducts[Number(i)].specialOffer} CHF </p></td>
               </tr>
               <br>`
-                }
-                console.log(productId)
-
             }
             displayCheckout();
-
         });
 }
 

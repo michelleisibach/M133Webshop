@@ -8,7 +8,7 @@ function displayProduct() {
     var length = url.length;
     var toCut = length - 3;
     var res = url.slice(toCut);
-    console.log(res);
+
     fetch("/api/products")
         .then(r => r.json())
         .then(products => products.forEach(products => {
@@ -40,6 +40,6 @@ function add() {
     var length = url.length;
     var toCut = length - 3;
     var res = url.slice(toCut);
-    console.log(res);
+
     fetch(`/api/warenkorb/${res}`, { method: "POST" });
 }

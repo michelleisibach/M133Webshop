@@ -37,7 +37,7 @@ app.get("/checkout", (req, res) => {
 })
 
 
-//api
+//api to get/set shoppingcart etc..
 app.get("/api/products", (req, res) => {
     res.json(products);
 });
