@@ -6,7 +6,7 @@
 
 2. Als zweites brauchen Sie noch Visual Studio Code. Dazu gehen Sie auf [code.visualstudio.com](https://code.visualstudio.com/), laden es herunter und installieren Sie es.
 
-3. Sobald Sie node.js instaliert haben, clonen Sie das Repository. Wie das geht finden Sie [hier.](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+3. Sobald Sie node.js und Visual Studio Code instaliert haben, clonen Sie das Repository. Wie das geht finden Sie [hier.](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 4. Öffnen Sie nun Ihr Visual Studio Code und navigieren Sie in Ihren Projektordner. Sobald Sie in Ihrem Ordner M133Webshop sind, gehen Sie in das Terminal in Visual Studio Code (In der Menüleiste auf Terminal->New Terminal)
 Dort geben Sie folgenden Code Snippet ein:
