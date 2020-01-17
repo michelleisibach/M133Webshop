@@ -24,6 +24,5 @@ function getItem() {
 function displayCheckout() {
 
     document.getElementById("checkout").innerHTML = `${sum.toFixed(2)}.-`;
-    document.getElementById("pay").innerHTML = `Bezahlen`;
 
 }

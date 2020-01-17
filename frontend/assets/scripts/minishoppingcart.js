@@ -1,0 +1,3 @@
+function showminishoppingcart() {
+    alert("test");
+}
