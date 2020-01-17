@@ -13,8 +13,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="../assets/scripts/checkout.js"></script>
 
-    <title> FotoStore</title>
+    <title> Checkout</title>
 </head>
 
 <body>
@@ -41,29 +42,62 @@
     </nav>
     <br>
     <br>
-
-    <table class="table">
-        <thead>
-            <tbody id="cart">
-                <script src="../assets/scripts/shoppingcart.js"></script>
-            </tbody>
-    </table>
-
-    <div>
-
+    <div id="verify">
         <div class="row">
-            <div class="col-6 col-md-4"></div>
             <div class="col-6 col-md-4">
-                <p id="checkout"></p>
-                <a id="pay" href="/checkout"></a>
+            </div>
+            <div class="col-6 col-md-4">
+                <h1>Checkout</h1>
+                <br>
+                <form>
+                    Name<br />
+                    <input type="text" id="user_input" name="username" />
+                    <br /> Nachname
+                    <br />
+                    <input type="text" id="pass_input" name="password" />
+                    <br /> Strasse
+                    <br />
+                    <input type="text" id="v_pass_input" name="v_password" />
+                    <br /> Hausnummer
+                    <br />
+                    <input type="text" id="hausnummer" name="hausnummer" />
+                    <br /> PLZ
+                    <br />
+                    <input type="text" id="hausnummer" name="hausnummer" pattern="\d{4}" placeholder="6000" />
+                    <br /> Email
+                    <br />
+                    <input type="email" id="hausnummer" name="hausnummer" />
+                    <br />
+                    <br />
+                    <input type="submit" id="register" value="bezahlen" disabled="disabled" />
+                </form>
+                <div id="test">
+                </div>
             </div>
             <div class="col-6 col-md-4"></div>
         </div>
-        <script src="../assets/scripts/shoppingcart.js"></script>
+
+
     </div>
-
-
-
 </body>
 
 </html>
+<script>
+    (function() {
+        $('form > input').keyup(function() {
+
+            var empty = false;
+            $('form > input').each(function() {
+                if ($(this).val() == '') {
+                    empty = true;
+                }
+            });
+
+            if (empty) {
+                $('#register').attr('disabled', 'disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+            } else {
+                $('#register').removeAttr('disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+            }
+        });
+    })()
+</script>

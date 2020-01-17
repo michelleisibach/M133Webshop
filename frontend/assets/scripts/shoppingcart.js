@@ -1,6 +1,5 @@
 const cart = document.getElementById('cart');
 const price = document.getElementById('price');
-const checkout = document.getElementById('checkout');
 var sum = 0;
 
 
@@ -35,5 +34,6 @@ function getItem() {
 function displayCheckout() {
 
     document.getElementById("checkout").innerHTML = `Ihre Summe: ${sum.toFixed(2)} CHF`;
+    document.getElementById("pay").innerHTML = `Bezahlen`;
 
 }
