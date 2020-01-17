@@ -44,3 +44,13 @@ img {
     width: 75%;
     margin-left: 10%;
 }
+
+#checkout {
+    font-size: 25px;
+    font-style: oblique;
+    margin-left: 12%;
+}
+
+#pay {
+    margin-left: 25%;
+}
